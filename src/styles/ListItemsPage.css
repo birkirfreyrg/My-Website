@@ -1,0 +1,11 @@
+.list-items-container {
+    min-height: 50vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+  }
+  
