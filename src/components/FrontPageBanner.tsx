@@ -3,11 +3,10 @@ import '../styles/FrontPageBanner.css'
 
 function FrontPageBanner() {
   return (
-    <div className="FrontPageBannerContainer">
-        <div className='FrontPageBanner'>
+    <div className="front-page-banner-container">
+        <div className='front-page-banner'>
             Banner
         </div>
-   
     </div>
   );
 }
