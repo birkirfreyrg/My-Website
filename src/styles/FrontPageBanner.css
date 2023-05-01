@@ -1,6 +1,6 @@
-.FrontPageBannerContainer {
+.front-page-banner-container {
     min-height: 100vh;
-    background-color: black;
+    background: linear-gradient(90deg, rgba(177,29,29,1) 0%, rgba(3,6,172,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;

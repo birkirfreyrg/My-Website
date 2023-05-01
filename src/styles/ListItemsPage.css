@@ -1,6 +1,6 @@
 .list-items-container {
     min-height: 50vh;
-    background-color: gray;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
