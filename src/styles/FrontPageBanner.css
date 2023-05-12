@@ -1,11 +1,50 @@
 .front-page-banner-container {
-    min-height: 95vh;
-    background: linear-gradient(90deg, rgba(177,29,29,1) 0%, rgba(3,6,172,1) 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 100%;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+.front-page-banner, .spring-water-text-container {
+  float: left;
+  width: 30%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.front-page-banner {
+  height: 500px;
+}
+
+.spring-water-text-container {
+  height: 100%;
+  text-align: left;
+}
+
+.spring-water-text-header {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.spring-water-text {
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+/* Media query for screens smaller than 1000px */
+@media (max-width: 1000px) {
+  .spring-water-text-container, .front-page-banner {
+      float: none;
+      width: 100%;
+      margin-bottom: 40px;
   }
-  
+  .front-page-banner-container {
+    min-height: 50vh;
+    margin-bottom: 10px;
+  }
+}

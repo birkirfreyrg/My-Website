@@ -4,7 +4,6 @@
 
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,5 +18,23 @@
 }
 
 p {
+  color: black;
   margin: 0;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0cc0df;
+  color: black;
 }
