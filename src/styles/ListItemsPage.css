@@ -1,11 +1,30 @@
 .list-items-container {
     min-height: 50vh;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
     width: 100%;
   }
+
+  .item-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    width: 100%;
+  }
   
+  
+  .item-list li {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: calc(33.33% - 16px);
+    margin-bottom: 10px;
+    margin-right: 16px;
+    background-color:darkcyan;
+  }
+
