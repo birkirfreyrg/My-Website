@@ -4,13 +4,18 @@ import FrontPageBanner from "./components/FrontPageBanner";
 import ListItemsPage from "./components/ListItemsPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import SingleBottle from "./images/singlebottle.png";
 
 function App() {
-  const items: string[] = [
-    "Single bottle",
-    "twelve pack",
-    "Gorilla Water Jug",
-    "Special Deal",
+  const items = [
+    { id: 1, name: 'Item 1', price: 10, photo: SingleBottle },
+    { id: 2, name: 'Item 2', price: 20, photo: SingleBottle },
+    { id: 3, name: 'Item 3', price: 30, photo: SingleBottle },
+    { id: 1, name: 'Item 4', price: 10, photo: SingleBottle },
+    { id: 2, name: 'Item 5', price: 20, photo: SingleBottle },
+    { id: 3, name: 'Item 6', price: 30, photo: SingleBottle },
+    { id: 3, name: 'Item 7', price: 30, photo: SingleBottle },
+    { id: 4, name: 'Item 8', price: 40, photo: SingleBottle }
   ];
 
   return (
