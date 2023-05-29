@@ -1,6 +1,5 @@
-import React from 'react';
-import '../styles/ListItemsPage.css'
-
+import React from "react";
+import "../styles/ListItemsPage.css";
 
 interface Props {
   items: string[];
@@ -8,13 +7,16 @@ interface Props {
 
 function ListItemsPage({ items }: Props) {
   return (
-    <div className="list-items-container">
-          <ul className='item-list'>
-            {items.map((item, index) => (
+    <>
+      <h1>We recommend!</h1>
+      <div className="list-items-container">
+        <ul className="item-list">
+          {items.map((item, index) => (
             <li key={index}>{item}</li>
-            ))}
-          </ul>
-    </div>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 
