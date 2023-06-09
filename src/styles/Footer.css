@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     min-height: 5vh;
-    background: grey;
-    color: white;
+    background-color: lightgray;
+    color: black;
     width: 100%;
   }
 

@@ -5,7 +5,9 @@ import logo from '../images/logo.png';
 function Logo() {
   return (
     <div className="logo-container">
+      <a href="/" >
         <img src={logo} alt="Logo" className='logo'></img>
+      </a>
     </div>
   );
 }
