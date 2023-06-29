@@ -1,9 +1,9 @@
 .socials-container {
-    width: 33.33%;
-    display: flex;
-    justify-content: center;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
 }
 
 .socials {
-    float: left;
+  float: left;
 }

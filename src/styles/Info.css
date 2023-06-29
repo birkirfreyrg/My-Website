@@ -1,9 +1,23 @@
 .info-container {
-    width: 33.33%;   
-    display: flex;
-    justify-content: center;
+  display: flex;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: start;
 }
 
 .info {
-    
+  font-weight: 700;
+}
+
+.quick-links {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+a:link {
+  text-decoration: none;
 }

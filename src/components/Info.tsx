@@ -1,15 +1,24 @@
-import React from 'react';
-import '../styles/Info.css'
+import React from "react";
+import "../styles/Info.css";
 
 function Info() {
   return (
     <div className="info-container">
-        <div className='info'>
-            <a href="url"><p>Nafn Verslunar</p></a>
-            <a href="url"><p>Um okkur</p></a>
-            <a href="url"><p>Skilmálar</p></a>
-            <a href="url"><p>Hafa samband</p></a>     
-        </div>
+      <div className="info">
+        <p className="quick-links">Quick Links</p>
+        <a href="url">
+          <p>Nafn Verslunar</p>
+        </a>
+        <a href="url">
+          <p>Um okkur</p>
+        </a>
+        <a href="url">
+          <p>Skilmálar</p>
+        </a>
+        <a href="url">
+          <p>Hafa samband</p>
+        </a>
+      </div>
     </div>
   );
 }
