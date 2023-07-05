@@ -1,9 +1,18 @@
 .openinghours-container {
-    width: 33.33%;   
-    display: flex;
-    justify-content: center;
+  display: flex;
+  width: 33.33%;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: start;
 }
 
-.openinghours {
+.opening-hours {
+  font-weight: 700;
+}
 
+.opening-hours-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
