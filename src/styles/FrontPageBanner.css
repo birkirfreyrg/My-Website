@@ -1,6 +1,6 @@
 .front-page-banner-container {
   margin-top: 5%;
-  min-height: 95vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -9,7 +9,8 @@
   overflow: hidden;
 }
 
-.front-page-banner, .spring-water-text-container {
+.front-page-banner,
+.spring-water-text-container {
   float: left;
   width: 30%;
   margin-right: 2.5%;
@@ -39,10 +40,11 @@
 
 /* Media query for screens smaller than 1000px */
 @media (max-width: 1000px) {
-  .spring-water-text-container, .front-page-banner {
-      float: none;
-      width: 100%;
-      margin-bottom: 40px;
+  .spring-water-text-container,
+  .front-page-banner {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
   }
   .front-page-banner-container {
     min-height: 50vh;

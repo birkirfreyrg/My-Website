@@ -8,7 +8,7 @@ function OpeningHours() {
         <p className="opening-hours-header">Opening Hours</p>
         <p>Monday: 11:00 - 18:00</p>
         <p>Wednesday: 11:00 - 18:00</p>
-        <p>Friday: 11:00 - 18:00</p>
+        <p>Friday: 11:00 - 16:00</p>
       </div>
     </div>
   );

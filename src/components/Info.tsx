@@ -5,18 +5,15 @@ function Info() {
   return (
     <div className="info-container">
       <div className="info">
-        <p className="quick-links">Quick Links</p>
+        <p className="quick-links">Gorilla Water</p>
         <a href="url">
-          <p>Nafn Verslunar</p>
+          <p>About</p>
         </a>
         <a href="url">
-          <p>Um okkur</p>
+          <p>Privacy policy</p>
         </a>
         <a href="url">
-          <p>Skilmálar</p>
-        </a>
-        <a href="url">
-          <p>Hafa samband</p>
+          <p>Contact us</p>
         </a>
       </div>
     </div>

@@ -1,11 +1,26 @@
 .socials-container {
   width: 33.33%;
   display: flex;
-  justify-content: center;
   font-size: 24px;
   font-weight: bold;
+  float: left;
+  flex-direction: column;
 }
 
 .socials {
-  float: left;
+  margin-bottom: 10px;
+}
+
+.socials-logos {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 25%;
+}
+
+.socials-container img {
+  width: 50px;
+  height: 50px;
 }
